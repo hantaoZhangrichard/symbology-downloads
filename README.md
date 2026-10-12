@@ -10,12 +10,12 @@ This repository hosts the official desktop releases for macOS and Windows. To le
 
 ## Download
 
-The latest release is **Symbology 0.1.5**.
+The latest release is **Symbology 0.1.6**.
 
 | Platform | System | Download |
 | --- | --- | --- |
-| macOS | Apple silicon (M1 or newer), macOS 12+ | [Download `.dmg`](https://github.com/hantaoZhangrichard/symbology-downloads/releases/download/v0.1.5/Symbology-0.1.5-arm64.dmg) |
-| Windows | 64-bit Windows | [Download `.exe`](https://github.com/hantaoZhangrichard/symbology-downloads/releases/download/v0.1.5/Symbology-Setup-0.1.5-x64.exe) |
+| macOS | Apple silicon (M1 or newer), macOS 12+ | [Download `.dmg`](https://github.com/hantaoZhangrichard/symbology-downloads/releases/download/v0.1.6/Symbology-0.1.6-arm64.dmg) |
+| Windows | 64-bit Windows | [Download `.exe`](https://github.com/hantaoZhangrichard/symbology-downloads/releases/download/v0.1.6/Symbology-Setup-0.1.6-x64.exe) |
 
 You can also browse the [latest release and all available files](https://github.com/hantaoZhangrichard/symbology-downloads/releases/latest).
 
@@ -39,19 +39,19 @@ Use the SHA-256 checksum for your installer to verify that the download is compl
 
 | File | SHA-256 |
 | --- | --- |
-| `Symbology-0.1.5-arm64.dmg` | `5b93a22055b795a606b0dfeb071b84c3d8ed0d427bf67639248208aa9e845c4b` |
-| `Symbology-Setup-0.1.5-x64.exe` | `b708314fc98d5451e71dcae1d5c571e830f81c1a49d8c0efed8058b0761fd0a7` |
+| `Symbology-0.1.6-arm64.dmg` | `748562c4b41eaaf7102374d80a8544e31cdb7a065534c7df1840e2f477c2c281` |
+| `Symbology-Setup-0.1.6-x64.exe` | `e36a15327347ae9e118a62a5cc1c47665d0d0234905f0bcb3a55d94bcf07b032` |
 
 On macOS:
 
 ```sh
-shasum -a 256 Symbology-0.1.5-arm64.dmg
+shasum -a 256 Symbology-0.1.6-arm64.dmg
 ```
 
 On Windows PowerShell:
 
 ```powershell
-Get-FileHash .\Symbology-Setup-0.1.5-x64.exe -Algorithm SHA256
+Get-FileHash .\Symbology-Setup-0.1.6-x64.exe -Algorithm SHA256
 ```
 
 The value printed by the command should match the corresponding checksum above.
